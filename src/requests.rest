@@ -1,0 +1,11 @@
+
+
+
+POST http://localhost:7000/auth/login
+Content-Type: application/json
+
+{
+    "username": "swaraj",
+    "email": "baralswaraj40@gmail.com",
+    "role": "educator"
+}
