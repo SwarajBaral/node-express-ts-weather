@@ -8,4 +8,7 @@ export const schema = [
     .isEmail()
     .exists({ checkFalsy: true })
     .withMessage("Invalid Email Format"),
+  body("pass")
+    .exists({ checkFalsy: true })
+    .withMessage("Password is required to login"),
 ];
